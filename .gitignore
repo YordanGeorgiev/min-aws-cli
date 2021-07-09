@@ -1,0 +1,15 @@
+# Poetry
+.venv/
+
+.vscode/
+
+# Data files
+dat
+data
+
+# Log files
+**/*.log
+
+# misc
+.DS_Store
+.env
