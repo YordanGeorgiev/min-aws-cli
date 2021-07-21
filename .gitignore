@@ -1,15 +1,33 @@
-# Poetry
-.venv/
+# Local aws credentials
+**/*/config/credentials
+**/*/config/*.env
+config/credentials
+config/*.env
+
+# vim tmp or conf files
+**/.
+**/*.swp
+**/*.swo
+.vimrc
+.vim
+
+# Local .terraform directories
+**/.terraform/*
+
+# Local kube_config file
+**/*/.kube/*
+**/*/kubeconfig.yaml
+
+# Local log files
+**/*/result.log
+result.log
 
 .vscode/
 
-# Data files
-dat
-data
-
-# Log files
-**/*.log
-
 # misc
-.DS_Store
+**/.DS_Store
 .env
+
+**/.terraform.lock.hcl
+dat
+**/.venv
